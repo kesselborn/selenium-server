@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+jar = File.expand_path("../../ext/selenium-server.jar", __FILE__)
+exec "java -jar #{jar}"
