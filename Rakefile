@@ -19,7 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{selenium server}
   gem.email = "daniel@soundcloud.com"
   gem.authors = ["Daniel Bornkessel"]
-  gem.files.include ["ext/selenium-server-1.0.3-standalone.jar","ext/selenium-server.jar", "bin/selenium-server"]
+  gem.files.exclude "ext/selenium-server-1.0.3-standalone.jar"
   gem.executables = ["selenium-server"]
 
   # Include your dependencies below. Runtime dependencies are required when using your gem,
